@@ -3,7 +3,7 @@ var inquirer = require("inquirer");
 var mysql = require("mysql");
 
 //Varable for MySQL connection information.
-//Wiped my password from this. It won't help you.
+//Wiped my password from this. It won't work on a different system.
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
